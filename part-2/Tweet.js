@@ -1,8 +1,9 @@
 "use strict";
 
+
 function Tweet({ username, name, date, message }) {
-  return
-  <div>
+  return (
+  <div className="tweetStyle">
     <ul>
       <li> {username} </li>
       <li> {name} </li>
@@ -10,5 +11,5 @@ function Tweet({ username, name, date, message }) {
       <li> {message} </li>
     </ul>
   </div>
-
+  )
 }
